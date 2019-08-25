@@ -12,12 +12,14 @@ Basic project requirements:
 #2 ABOUT DEVELOPED APPLICATION #
 
 Developed in PHP programming language, front end frameworks: Bootstrap and Laravel backend, we love the latest version available, coupled with the use of CSS 3 style sheet markup language, HTML5. The layout of the application took into account the concept of mobile-first, already provided by the bootstrap framework, as well as the layout of the pages through the grid system adopted by it. Thus making the system responsive and adapted to various resolution sizes. Through Laravel, the MVC (Model-View-Controler) architecture standard was used for GIfs entities. The log log file was implemented using the monolog API, which implements the use of PSR4, can be found within the application's public directory in the log folder.
+
 #2.1 About features #
-Access to the system is provided through the Welcome view and the gifs / index view, where you can access the home page containing the registration or login menu.
-Search pages, stored GIfs, and History are protected and can only be accessed by authenticated users.
-All forms use Cross-site attack protection (@CSR), a feature available native to the Laravel framework.
-The Monolog API was used to provide logging for page search, viewed on the application history screen.
-The front end bootstrap framework was used for screen creation, installed via composer.
+-Access to the system is provided through the Welcome view and the gifs / index view, where you can access the home page containing the -registration or login menu.
+-Search pages, stored GIfs, and History are protected and can only be accessed by authenticated users.
+-All forms use Cross-site attack protection (@CSR), a feature available native to the Laravel framework.
+-The Monolog API was used to provide logging for page search, viewed on the application history screen.
+-The front end bootstrap framework was used for screen creation, installed via composer.
+-Mobile compatible layout
 
 #3 FICTIONAL BRANG - FindAGif#
 For the development of the project a fictional ListaCheck mark was created, just to identify the project illustratively.
