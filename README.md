@@ -23,6 +23,8 @@ The front end bootstrap framework was used for screen creation, installed via co
 For the development of the project a fictional ListaCheck mark was created, just to identify the project illustratively.
 
 #4 CONSIDERATIONS #
+In Windows environments, you need to modify the hosts file by adding the line:
+192.168.10.10   findagif.proto
 
 #4.1 Comands Artisan for migration#
 php artisan make:model Gifs --migration
