@@ -23,7 +23,7 @@ Developed in PHP programming language, front end frameworks: Bootstrap and Larav
 - f) Mobile compatible layout
 
 #3 FICTIONAL BRANG - FindAGif#
-For the development of the project a fictional ListaCheck mark was created, just to identify the project illustratively.
+For the development of the project a fictional FingAGif mark was created, just to identify the project illustratively.
 
 #4 CONSIDERATIONS #
 In Windows environments, you need to modify the hosts file by adding the line:
