@@ -39,7 +39,7 @@ Password:
 #4.3 Conclusion #
 In addition, I hope I have met the expectations and requirements of the project. I mean, I had fun producing it. I await contact about the selection process.
 
-_** Always seeking the satisfaction of overcoming challenges, I found in the field of T.I. my vocation to contribute to society fully and objectively.**_
+_** Always seeking the satisfaction of overcoming challenges, I found in the field of I.T. my vocation to contribute to society fully and objectively.**_
 
 
 <right>Washington da Costa Silva</right>
