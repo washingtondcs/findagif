@@ -1,3 +1,4 @@
+<img src="https://user-images.githubusercontent.com/17282308/63644061-77eed880-c6b6-11e9-8aeb-ca9dd2b9c848.JPG" width="100%"></img> 
 ##FindAGif
 
 #1 MOTIVATION #
