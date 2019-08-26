@@ -8,7 +8,7 @@ use App\Gifs;
 class GifsController extends Controller
 {
     public function index(){
-    	return view('gifs.index',array('imagens' => null));
+    	return view('gifs.index',array('imagens' => null,'sku' => null));
     }
 
     public function show(){
@@ -34,17 +34,11 @@ class GifsController extends Controller
 
      }
 
-     public function store(Request $request){
-
-        $this->validate($request, [
-            'sku'=>'required|min:3',
-            'user'=>'required|min:3',
-
-        ]);
+     public function store($sku,$user){
 
         $gif = new Gifs();
-        $gif ->sku = $request->input('sku');
-        $gif ->user = $request->input('user');
+        $gif ->sku = $sku;
+        $gif ->user = $user;
 
         if($gif->save()){
             return view('gifs.index',array('imagens' => null,'gifs' => null));

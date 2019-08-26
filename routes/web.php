@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+Route::get('/gifs/store/{sku}/{user}', "GifsController@store");
+
 Route::resource('/gifs', 'GifsController');
 
 Route::resource('/gifs/recover', 'GifsController@show');
@@ -22,6 +26,7 @@ Route::resource('/gifs/recover', 'GifsController@show');
 Route::resource('/history', 'HistoryController');
 Route::post('/gifs/search', 'GifsController@search');
 Route::post('/gifs/store', 'GifsController@store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

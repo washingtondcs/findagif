@@ -46,15 +46,13 @@ $logger->info('New Search: '.$keywords."<br>");
 <?php
 $cont=count($imagens['id']);
 ?>
-            <form method="Post" action="{{url('gifs/store')}}">
+            <form method="get" action="{{url('gifs/recover')}}">
 			@csrf
 			<div class="input-group mb-3">
 	@for($i=0;$i<$cont;$i++)
 	<div class="col-md-3">
 	<img src="http://giphygifs.s3.amazonaws.com/media/{{$imagens['id'][$i]}}/giphy.gif" class="img-thumbnail" width="250px" height="250px">
-	<input type="hidden" class="form-control" id="sku" name="sku" value="{{$imagens['id'][$i]}}">
-		   <input type="hidden" class="form-control" id="user" name="user" value="{{auth()->user()->name}}">
-		   <input type="submit" class="btn btn-primary" name="store" value="Store">
+		   <a href="store/{{$imagens['id'][$i]}}/{{auth()->user()->name}}" class="btn btn-primary">Store</a>
     </div>
     @endfor
     </div>
